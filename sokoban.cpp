@@ -1,9 +1,15 @@
 #include <iostream>
 
+void do_something(int a);
+
+
 int main()
 {
     std::cout << "Hello World!\n";
-    //code
+    do_something(42);
+}
 
+void do_something(int a) {
+    printf("%d", a);
 }
 
